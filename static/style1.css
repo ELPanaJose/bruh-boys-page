@@ -7,33 +7,42 @@ body {
   color: var(--text-color);
 
   font-family:sans-serif;
+  top:0;
 }
 [data-theme="dark"] {
   --background-color: #23272a;
   --text-color: #fff;
 }
 
-
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 #about{
   width:70%;
   margin:auto;
 }
 #nav-var  {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   background-color:#08033d;
   color:white;
  
 
 }
-#nav-var ul li{
+.linkNav {
   float:left;
-  padding-right: 10px;
-  overflow: hidden;
+  padding:5px;
+ 
+
 
 }
-#nav-var ul li  {
+.linkNav {
 height: 40px;
 }
-#nav-var ul li :hover{
+.linkNav:hover{
   background-color:rgb(19, 19, 19);
   
 }
@@ -48,4 +57,10 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 10px;
+}
+button:hover{
+  color:#7289da; 
+  background-color:#000000;
+
 }
