@@ -2,6 +2,10 @@
   --background-color: #fff;
   --text-color: #000000;
   --contribuitor-color:rgb(177, 177, 177);
+  --button-background-color:#7289da; 
+  --button-text-color:#fff;
+  --button-background-hover:#000;
+  
 }
 *{
   border-color: #000000;
@@ -18,7 +22,11 @@ body {
 [data-theme="dark"] {
   --background-color: #00000a;
   --text-color: #fff;
+  --button-background-color:rgb(6, 0, 26);
   --contribuitor-color:rgb(56, 56, 56);
+  --button-text-color:#fff;
+  
+  --button-background-hover:#7289da; 
 }
 
 #about{
@@ -34,19 +42,26 @@ body {
   top:0;
   height: 7em;
 }
-.linkNav {
+.linkNav {  border: 1px solid #000;
+  
+
   float:left;
-  padding:5px;
+
+  height: 40.923132px;
+  width: 30%;
+  text-align: center;
 }
-.linkNav {
-height: 40px;
-}
+
+
 .linkNav a{
-  color:rgb(163, 163, 163);
+  color:rgb(255, 255, 255);
+  padding-bottom:30px;
 }
 
 .linkNav:hover{
-  background-color:rgb(19, 19, 19);
+  color:#000;
+  background-color:rgb(40, 205, 255);
+
   
 }
 a{
@@ -80,9 +95,9 @@ a{
 
 
 button {
-  background-color: #7289da; /* Green */
+  background-color: var( --button-background-color); /* Green */
   border: none;
-  color: white;
+  color:var(--button-text-color);
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
@@ -92,7 +107,7 @@ button {
   float:right;
 }
 button:hover{
-  color:#7289da; 
-  background-color:#000000;
+  color:var(--button-text-color); 
+  background-color:var(--button-background-hover);
 
 }
