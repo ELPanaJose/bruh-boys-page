@@ -6,6 +6,7 @@ body {
   background-color: var(--background-color);
   color: var(--text-color);
   text-align: center;
+  font-family:sans-serif;
 }
 [data-theme="dark"] {
   --background-color: #23272a;
