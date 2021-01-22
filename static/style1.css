@@ -68,7 +68,8 @@ a{
   display: block;
 }
 #people{
-  text-align: center;
+  width: 70%;
+  margin:auto;
 }
 
 
