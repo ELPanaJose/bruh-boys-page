@@ -3,6 +3,9 @@
   --text-color: #000000;
   --contribuitor-color:rgb(177, 177, 177);
 }
+*{
+  border-color: #000000;
+}
 body {
   background-color: var(--background-color);
  
@@ -29,6 +32,7 @@ body {
   background-color:#08033d;
   color:white;
   top:0;
+  height: 7em;
 }
 .linkNav {
   float:left;
@@ -85,6 +89,7 @@ button {
   display: inline-block;
   font-size: 16px;
   border-radius: 10px;
+  float:right;
 }
 button:hover{
   color:#7289da; 
