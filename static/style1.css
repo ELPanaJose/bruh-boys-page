@@ -24,12 +24,20 @@ body {
  
 
 }
-#nav-var h4{
+#nav-var ul li{
   float:left;
+  padding-right: 10px;
+  overflow: hidden;
+
 }
-#theme-switcher{
-  float:right;
+#nav-var ul li  {
+height: 40px;
 }
+#nav-var ul li :hover{
+  background-color:rgb(19, 19, 19);
+  
+}
+
 
 button {
   background-color: #7289da; /* Green */
