@@ -12,15 +12,25 @@ body {
   --background-color: #23272a;
   --text-color: #fff;
 }
-*{
-  margin:auto;
-  width:70%;
-}
+
 
 #about{
   width:70%;
   margin:auto;
 }
+#nav-var  {
+  background-color:#08033d;
+  color:white;
+ 
+
+}
+#nav-var h4{
+  float:left;
+}
+#theme-switcher{
+  float:right;
+}
+
 button {
   background-color: #7289da; /* Green */
   border: none;
