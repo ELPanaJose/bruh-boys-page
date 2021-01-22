@@ -5,12 +5,21 @@
 body {
   background-color: var(--background-color);
   color: var(--text-color);
-  text-align: center;
+
   font-family:sans-serif;
 }
 [data-theme="dark"] {
   --background-color: #23272a;
   --text-color: #fff;
+}
+*{
+  margin:auto;
+  width:70%;
+}
+
+#about{
+  width:70%;
+  margin:auto;
 }
 button {
   background-color: #7289da; /* Green */
